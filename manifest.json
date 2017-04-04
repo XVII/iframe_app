@@ -1,9 +1,9 @@
 {
   "author": {
-    "name": "Zendesk",
-    "email": "support@zendesk.com"
+    "name": "Shadow Productions",
+    "email": "zendesk@shadowsplace.net"
   },
-  "location": "nav_bar",
+  "location": ["ticket_sidebar", "new_ticket_sidebar"],
   "defaultLocale": "en",
   "private": false,
   "frameworkVersion": "1.0",
@@ -13,18 +13,6 @@
       "name": "iframeURL",
       "type": "url",
       "required": true
-    },
-    {
-      "name": "inactiveIconURL",
-      "type": "url"
-    },
-    {
-      "name": "hoverIconURL",
-      "type": "url"
-    },
-    {
-      "name": "selectedIconURL",
-      "type": "url"
     },
     {
       "name": "zafSdkSupport",

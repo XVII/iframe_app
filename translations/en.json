@@ -3,28 +3,10 @@
     "parameters": {
       "iframeURL": {
         "label": {
-          "title": "iframe URL. See https://zendesk.box.com/s/bys22b6tldnopxuw0g3qhe3nhoaseqqo",
+          "title": "iframe URL",
           "value": "iframe URL"
         }
-      },
-      "inactiveIconURL": {
-        "label": {
-          "title": "Inactive Icon URL. See https://zendesk.box.com/s/bys22b6tldnopxuw0g3qhe3nhoaseqqo",
-          "value": "Inactive Icon URL"
-        }
-      },
-      "hoverIconURL": {
-        "label": {
-          "title": "Hover Icon URL. See https://zendesk.box.com/s/bys22b6tldnopxuw0g3qhe3nhoaseqqo",
-          "value": "Hover Icon URL"
-        }
-      },
-      "selectedIconURL": {
-        "label": {
-          "title": "Selected Icon URL. See https://zendesk.box.com/s/bys22b6tldnopxuw0g3qhe3nhoaseqqo",
-          "value": "Selected Icon URL"
-        }
-      },
+      }, 
       "zafSdkSupport": {
         "label": {
           "title": "A checkbox to enable ZAF SDK support. See https://zendesk.box.com/s/bys22b6tldnopxuw0g3qhe3nhoaseqqo",
@@ -37,9 +19,9 @@
       }
     },
     "description": {
-      "title": "Embed any website in your Zendesk (formerly known as Sidebar Icon app). See https://zendesk.box.com/s/0c5a122j1hdgbx4yu6bqlktdtl1qfu03",
-      "value": "Embed any website in your Zendesk (formerly known as Sidebar Icon app)"
+      "title": "Embed any website in your Zendesk Ticket Sidebar",
+      "value": "Embed any website in your Zendesk Ticket Sidebar"
     },
-    "package": "iframe_app"
+    "package": "iframe_ticket_sidebar_app"
   }
 }
