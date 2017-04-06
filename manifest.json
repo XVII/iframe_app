@@ -1,7 +1,8 @@
 {
   "author": {
     "name": "Shadow Productions",
-    "email": "zendesk@shadowsplace.net"
+    "email": "zendesk+app@shadowsplace.net",
+	"url": "http://www.shadowsplace.net"
   },
   "location": ["ticket_sidebar", "new_ticket_sidebar"],
   "defaultLocale": "en",
