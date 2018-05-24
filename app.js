@@ -7,7 +7,7 @@
     },
 
     init: function(data) {
-      this.switchTo('iframe', { src: this.setting('iframeURL') });
+      this.switchTo('iframe', { src: this.setting('iframeURL'), height: this.setting('iframeHeight') });
     }
 
   };

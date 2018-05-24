@@ -1,5 +1,5 @@
 {{#if (setting "zafSdkSupport")}}
   {{iframe src}}
 {{else}}
-  <iframe src="{{src}}"/>
+  <iframe src="{{src}}" style="height: {{height}}px;"/>
 {{/if}}
