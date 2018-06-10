@@ -1,10 +1,32 @@
 {
   "app": {
+    "name": {
+      "title": "Name for App: Iframe",
+      "value": "Iframe Ticket Sidebar"
+    },
+    "short_description": {
+      "title": "Description for App: Iframe",
+      "value": "Embed any website in your Zendesk Ticket Sidebar"
+    },
+    "long_description": {
+      "title": "Long Description for App: Iframe",
+      "value": "An *iframe* is an HTML element that lets you nest one web page in another web page."
+    },
+    "installation_instructions": {
+      "title": "Installation Instructions for App: Iframe",
+      "value": "Configure the app as follows, then click **Install**:\n\n* Iframe URL: Link to the page you want to display.\n* Iframe Height: The height of the display window in px units."
+    },
     "parameters": {
       "iframeURL": {
         "label": {
           "title": "iframe URL",
           "value": "iframe URL"
+        }
+      }, 
+      "iframeHeight": {
+        "label": {
+          "title": "iframe Height",
+          "value": "iframe Height (px)"
         }
       }, 
       "zafSdkSupport": {
