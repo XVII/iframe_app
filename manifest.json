@@ -1,14 +1,22 @@
 {
+  "defaultLocale": "en",
+  "private": false,
+  "frameworkVersion": "2.0",
+  "version": "2.0.1",
+
   "author": {
     "name": "Shadow Productions",
     "email": "zendesk+app@shadowsplace.net",
-	"url": "http://www.shadowsplace.net"
+    "url": "http://www.shadowsplace.net"
   },
-  "location": ["ticket_sidebar", "new_ticket_sidebar"],
-  "defaultLocale": "en",
-  "private": false,
-  "frameworkVersion": "1.0",
-  "version": "1.0.6",
+
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/iframe.html",
+      "background": "assets/background.html"
+    }
+  },
+
   "parameters": [
     {
       "name": "iframeURL",

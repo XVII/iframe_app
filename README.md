@@ -9,13 +9,24 @@ It was designed to allow Zendesk agents to quickly flip to a web site and then f
 
 The Iframe Ticket Sidebar app supports websites that include the Zendesk App Framework (ZAF) SDK. Check out [Iframes in Apps](https://developer.zendesk.com/apps/docs/agent/iframes_in_apps) to learn more.
 
-## Changes from the Iframe App
+Changes from the Iframe App
+=========================
 
 Converted to use the Ticket Sidebar in Zendesk
 
-## Original Copyright and license
 
-Copyright 2014 Zendesk
+Contributing
+=========================
+Improvements are always welcome. Please follow these steps to contribute:
+
+1. Submit a Pull Request with a detailed explanation of changes
+2. Receive a :+1: from a core team member
+3. Core team will merge your changes
+
+Original Copyright and license
+=========================
+
+Copyright 2018 Zendesk
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 
