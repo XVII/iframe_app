@@ -2,12 +2,12 @@
   "defaultLocale": "en",
   "private": false,
   "frameworkVersion": "2.0",
-  "version": "2.0.4",
+  "version": "2.0.5",
 
   "author": {
     "name": "Shadow Productions",
     "email": "zendesk+app@shadowsplace.net",
-    "url": "http://www.shadowsplace.net"
+    "url": "https://www.shadowsplace.net"
   },
 
   "location": {
