@@ -2,7 +2,7 @@ var client = ZAFClient.init()
 
 client.on('app.registered', function(context) {
   var settings = context.metadata.settings
-  window.location = (settings.zafSdkSupport) ? buildUrl(window.location.href, settings.iframeURL) : settings.iframeURL
+  window.location.replace((settings.zafSdkSupport) ? buildUrl(window.location.href, settings.iframeURL) : settings.iframeURL)
 })
 
 function buildUrl (currentUrl, newUrl) {
