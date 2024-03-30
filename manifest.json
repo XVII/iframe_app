@@ -2,21 +2,18 @@
   "defaultLocale": "en",
   "private": false,
   "frameworkVersion": "2.0",
-  "version": "2.0.5",
-
+  "version": "2.0.6",
   "author": {
-    "name": "Shadow Productions",
-    "email": "zendesk+app@shadowsplace.net",
-    "url": "https://www.shadowsplace.net"
+    "name": "XVII Digital",
+    "email": "zendesk+app@xvii.com.au",
+    "url": "https://xvii.au"
   },
-
   "location": {
     "support": {
       "ticket_sidebar": "assets/iframe.html",
       "background": "assets/background.html"
     }
   },
-
   "parameters": [
     {
       "name": "iframeURL",
