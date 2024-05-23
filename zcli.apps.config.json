@@ -1,0 +1,7 @@
+{
+    "parameters": {
+      "iframeURL": "https://picsum.photos/200/150",
+      "zafSdkSupport": false,
+      "iframeHeight": 100
+    }
+  }
