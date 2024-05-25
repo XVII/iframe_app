@@ -4,7 +4,7 @@ client.on('app.registered', function (context) {
   var settings = context.metadata.settings
   console.log("iframe app.registered")
   window.location.replace((settings.zafSdkSupport) ? buildUrl(window.location.href, settings.iframeURL) : settings.iframeURL)
-}
+})
 
 function buildUrl(currentUrl, newUrl) {
     if (!/^https?:/.test(newUrl)) {
@@ -30,3 +30,4 @@ function queryParameters(url) {
     // remove inital ? and split
     return urlParser(url).search.replace(/^\?/, '').split('&').filter(function (p) { return !!p })
 }
+

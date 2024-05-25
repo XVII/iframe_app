@@ -1,8 +1,9 @@
 {
+  "name": "iFrame Ticket Sidebar",
+  "version": "2.0.7",
   "defaultLocale": "en",
   "private": false,
   "frameworkVersion": "2.0",
-  "version": "2.0.7",
   "author": {
     "name": "XVII Digital",
     "email": "zendesk+app@xvii.com.au",
@@ -10,7 +11,10 @@
   },
   "location": {
     "support": {
-      "ticket_sidebar": "assets/iframe.html",
+      "ticket_sidebar": {
+        "url": "assets/iframe.html",
+        "flexible": true
+      },
       "background": "assets/background.html"
     }
   },
@@ -24,7 +28,7 @@
       "name": "iframeHeight",
       "type": "number",
       "required": true,
-      "default": 150
+      "default": 300
     },
     {
       "name": "zafSdkSupport",
